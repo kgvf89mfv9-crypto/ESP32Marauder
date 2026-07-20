@@ -13,13 +13,13 @@
 // TFT_WIDTH and TFT_HEIGHT are NOT required for ILI9341 as they default to 240 x 320
 
 // LilyGo T-Deck SPI pin definitions
-#define TFT_MISO 38
-#define TFT_MOSI 41
-#define TFT_SCLK 40
-#define TFT_CS   12  // Chip select
-#define TFT_DC   11  // Data/Command
+#define TFT_MISO 12
+#define TFT_MOSI 13
+#define TFT_SCLK 14
+#define TFT_CS   15  // Chip select
+#define TFT_DC   2  // Data/Command
 #define TFT_RST  -1  // Reset (connected to EN pin via hardware)
-#define TFT_BL   42  // Backlight
+#define TFT_BL   21  // Backlight
 
 #define TOUCH_CS -1  // No touch screen CS
 
