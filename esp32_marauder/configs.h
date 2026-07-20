@@ -34,7 +34,7 @@
   //#define MARAUDER_V8
   //#define MARAUDER_MINI_V3
   //#define DUAL_MINI_C5
-  //#define LILYGO_T_DECK
+  #define LILYGO_T_DECK
   //// END BOARD TARGETS
 
   #define JSON_SETTING_SIZE 2048
