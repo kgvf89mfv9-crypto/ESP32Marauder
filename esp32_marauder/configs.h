@@ -833,11 +833,11 @@
 
     #ifdef LILYGO_T_DECK
       // Trackball pins: UP=3, DOWN=15, LEFT=1, RIGHT=2, CLICK=0
-      #define L_BTN 1   // trackball left
-      #define C_BTN 0   // trackball click
-      #define U_BTN 3   // trackball up
-      #define R_BTN 2   // trackball right
-      #define D_BTN 15  // trackball down
+      #define L_BTN 36   // trackball left
+      #define C_BTN 33   // trackball click
+      #define U_BTN 35   // trackball up
+      #define R_BTN 39   // trackball right
+      #define D_BTN 32  // trackball down
 
       #define HAS_L
       #define HAS_R
